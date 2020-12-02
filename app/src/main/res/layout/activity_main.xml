@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".LoginActivity">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_alignParentBottom="true"
+    android:background="#dbdbdb">
+    <RadioGroup
+        android:id="@+id/main_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/community_tab"
+            style="@style/Radio_style"
+            android:textSize="10sp"
+            android:checked="false"
+            android:drawableTop="@drawable/community"
+            android:text="社区"/>
+        <RadioButton
+            android:id="@+id/photo_tab"
+            style="@style/Radio_style"
+            android:clipChildren="false"
+            android:drawableTop="@drawable/photo"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/user_tab"
+            style="@style/Radio_style"
+            android:textSize="10sp"
+            android:checked="false"
+            android:drawableTop="@drawable/wode"
+            android:text="我的"/>
+    </RadioGroup>
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
