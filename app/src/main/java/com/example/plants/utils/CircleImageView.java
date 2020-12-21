@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 
 /**
- * @Description :圆形图片工具类
+ * @Description :圆形图片工具类,弃用
  * @Author MIKE-MILK
  * @Date 10/28/20 4:53 PM
  */
